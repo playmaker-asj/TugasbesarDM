@@ -1,0 +1,113 @@
+getwd()
+#get dataset
+dataset <- live.csv("data.csv", sep = ";")
+#get dataset
+dataset <- read.csv("live.csv", sep = ";")
+View(dataset)
+#get dataset
+dataset <- read.csv("live.csv", sep = ",")
+View(dataset)
+View(dataset)
+#get dataset
+dataset <- read.csv("Paper.csv", sep = ",")
+#get dataset
+dataset <- read.csv("Paper.csv", sep = ",")
+#get dataset
+dataset <- read.csv("Papers.csv", sep = ",")
+View(dataset)
+#get dataset
+dataset <- read.csv("Sales_Transactions_Dataset_Weekly.csv", sep = ",")
+View(dataset)
+View(dataset)
+#get dataset
+dataset <- read.csv("Amazon.csv", sep = ",")
+View(dataset)
+#scale the data then cluster the data
+res.hc <- dataset[2:3] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#scale the data then cluster the data
+res.hc <- dataset[2:3] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#scale the data then cluster the data
+res.hc <- dataset[2:5] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#scale the data then cluster the data
+res.hc <- dataset[2:3] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#scale the data then cluster the data
+res.hc <- dataset[2:3] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#inspect the model
+cl <- kmeans(dataset, 3)
+#inspect the model
+cl <- kmeans(dataset, 5)
+library("cluster")
+library("factoextra")
+library("magrittr")
+#inspect the model
+cl <- kmeans(dataset, 5)
+library("magrittr")
+library("factoextra")
+library("cluster")
+#inspect the model
+cl <- kmeans(dataset, 5)
+#scale the data then cluster the data
+res.hc <- dataset[2:3] %>% scale() %>% dist(method = "euclidean") %>%
+hclust(method = "ward.D2")
+#get dataset
+dataset <- read.csv("Amazon.csv", sep = ",")
+#inspect the model
+cl <- kmeans(dataset, 5)
+#visualize the result
+fviz_dend(res.hc, k = 3,
+cex = 0.5,
+k_colors = c("#2E9FDF", "#FC4E07", "#00AFBB"),
+color_labels_by_k = TRUE,
+rect = TRUE
+)
+#inspect the model
+cl <- kmeans(dataset, 5)
+res.hc
+fviz_nbclust(input,kmeans,method = "silhouette")
+#scale the data then cluster the data
+input=dataset[,1:5]
+fviz_nbclust(input,kmeans,method = "silhouette")
+install.packages(“ggplot2”)
+install.packages("ggplot2")
+install.packages("factoextra)
+library(factoextra)
+library(ggplot2)
+#library
+#install.packages("factoextra")
+install.packages("factoextra")
+#install.packages("cluster")
+install.packages("cluster")
+#install.packages("magrittr")
+install.packages("magrittr")
+library("cluster")
+library("factoextra")
+library("magrittr")
+#get dataset
+dataset <- read.csv("Amazon.csv", sep = ",")
+#scale the data then cluster the data
+input=dataset[,1:5]
+fviz_nbclust(input,kmeans,method = "silhouette")
+install.packages("ggplot2")
+install.packages("factoextra)
+library(factoextra)
+library(ggplot2)
+#library
+#install.packages("factoextra")
+install.packages("factoextra")
+#install.packages("cluster")
+install.packages("cluster")
+#install.packages("magrittr")
+install.packages("magrittr")
+library("cluster")
+library("factoextra")
+library("magrittr")
+#get dataset
+dataset <- read.csv("Amazon.csv", sep = ",")
+#scale the data then cluster the data
+input=dataset[,1:5]
+fviz_nbclust(input,kmeans,method = "silhouette")
