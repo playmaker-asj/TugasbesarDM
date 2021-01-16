@@ -1,6 +1,6 @@
 #set and get location
 getwd()
-setwd("C:/Users/renko/OneDrive/Documents/Tugas Besar Data Mining/Rstudio")
+setwd("C:/Users/ade/OneDrive/Documents/Tugas Besar Data Mining/Rstudio")
 rm(list =ls())
 
 #Importing library packages
